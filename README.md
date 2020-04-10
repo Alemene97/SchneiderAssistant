@@ -15,7 +15,7 @@ Tramite opportune entità e intenti vengono estrapolate informazioni riguardo al
 
 ## Firestore Cloud
 
-###Info
+### Info
 Funzione del tool Firebase di Google. Semplice database in licenza gratuita limitata.
 Utilizzato come tramite da DialogFlow e Node-Red. Tramite che potrebbe essere eliminato in un futuro per far comunicare direttamente Node-RED a dialoflow.
 
@@ -23,7 +23,7 @@ Tramite funzioni specifiche ad hoc su Dialogflow viene di volta in volta aggiorn
 
 ## Node-Red
 
-###Info
+### Info
 Tramite nodi già sviluppati (pacchetto: node-red-contrib-cloud-firestore) Node-RED ascolta le variazioni di dati nel database e al verificarsi di questi eventi lancia un flusso
 
 ### Modbus
