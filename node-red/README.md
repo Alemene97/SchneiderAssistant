@@ -33,3 +33,5 @@ Il nodo *Telegram recevier* ha lo scopo di rispondere a un messaggio inviato da 
 # Setup
 
 Per utilizzare i flussi node-red implementati è necessario avere una versione di Node-Red installata e i tre pacchetti di nodi elencati in precedenza. Il pacchetto se-node-red-modbus non è presente nella Palette dei nodi di node-red e va installato manualmente. Le informazioni per fare ciò sono contenute nella cartella *nodi_se*.
+
+I flussi sono i file dentro le cartelle *SchneidereAssistantBot_telegram* e *firestoreToPLC* con estensione .json.
