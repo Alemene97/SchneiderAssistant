@@ -1,0 +1,36 @@
+{
+  "id": "60d82651-baf7-4d55-9369-7949016457e5",
+  "parentId": "579271d3-29b5-4244-bf43-f0caf6b97ada",
+  "rootParentId": "579271d3-29b5-4244-bf43-f0caf6b97ada",
+  "name": "setupValve - no",
+  "auto": true,
+  "contexts": [
+    "setupValve-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setupValve.setupValve-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Azione non eseguita"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

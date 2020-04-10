@@ -1,0 +1,61 @@
+{
+  "id": "8ec75ad6-7955-497c-acb0-b26715b5e1c9",
+  "parentId": "579271d3-29b5-4244-bf43-f0caf6b97ada",
+  "rootParentId": "579271d3-29b5-4244-bf43-f0caf6b97ada",
+  "name": "setupValve - yes",
+  "auto": true,
+  "contexts": [
+    "setupValve-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setupValve.setupValve-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b174225-ddb9-4696-8c09-bbee5b589877",
+          "required": false,
+          "dataType": "@statusValvola",
+          "name": "statoValvola",
+          "value": "#setupValve-followup.statoValvola",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "997e5450-68ea-4db1-be42-9276c1835575",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numero",
+          "value": "#setupValve-followup.numero",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Comando inviato"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

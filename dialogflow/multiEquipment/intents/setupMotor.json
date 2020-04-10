@@ -1,0 +1,74 @@
+{
+  "id": "cfeaf7c9-5b57-48a7-9b10-f36c42f5bbf6",
+  "name": "setupMotor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "setupMotor-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9f2f845c-30c5-494e-9ba5-7edb281641f0",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "numero",
+          "value": "$numero",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "quale motore?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "977847a1-9b90-4a04-a517-23678417bd6b",
+          "required": true,
+          "dataType": "@statusMotore",
+          "name": "statoMotore",
+          "value": "$statoMotore",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "su che stato vuoi importare il motore $numero?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "vuoi che il motore $numero venga $statoMotore?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

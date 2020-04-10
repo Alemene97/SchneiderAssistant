@@ -1,0 +1,21 @@
+[
+  {
+    "value": "acceso",
+    "synonyms": [
+      "accendi",
+      "avvia",
+      "RUN",
+      "aziona"
+    ]
+  },
+  {
+    "value": "spento",
+    "synonyms": [
+      "STOP",
+      "ferma",
+      "spegni",
+      "interrompi",
+      "blocca"
+    ]
+  }
+]

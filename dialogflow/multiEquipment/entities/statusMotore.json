@@ -1,0 +1,9 @@
+{
+  "id": "40e33cf2-dc11-4b34-bd7b-0d8267324fcc",
+  "name": "statusMotore",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

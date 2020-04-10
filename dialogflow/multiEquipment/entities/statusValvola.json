@@ -1,0 +1,9 @@
+{
+  "id": "e8f877a7-748c-40a8-992f-b936d78b849d",
+  "name": "statusValvola",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

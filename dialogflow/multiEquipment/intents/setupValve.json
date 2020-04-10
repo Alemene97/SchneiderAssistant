@@ -1,0 +1,74 @@
+{
+  "id": "579271d3-29b5-4244-bf43-f0caf6b97ada",
+  "name": "setupValve",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "setupValve-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "30b2a442-c295-4d77-adb8-7d605f092958",
+          "required": true,
+          "dataType": "@statusValvola",
+          "name": "statoValvola",
+          "value": "$statoValvola",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "Su che stato vuoi impostare la valvola?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b1b7a6be-99b6-4170-be4b-e247103dc23b",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "numero",
+          "value": "$numero",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "Quale valvola vuoi impostare?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Vuoi che la valvola $numero venga $statoValvola?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

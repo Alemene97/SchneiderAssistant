@@ -1,0 +1,18 @@
+[
+  {
+    "value": "aperta",
+    "synonyms": [
+      "OPEN",
+      "apri",
+      "sblocca"
+    ]
+  },
+  {
+    "value": "chiusa",
+    "synonyms": [
+      "CLOSE",
+      "blocca",
+      "chiudi"
+    ]
+  }
+]

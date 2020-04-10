@@ -1,0 +1,9 @@
+{
+  "id": "4ea393df-967d-4852-a73a-afe8060378ea",
+  "name": "comunicationStatusMotor",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cf05d981-d80c-408c-829b-9deff1c61520",
+  "parentId": "cfeaf7c9-5b57-48a7-9b10-f36c42f5bbf6",
+  "rootParentId": "cfeaf7c9-5b57-48a7-9b10-f36c42f5bbf6",
+  "name": "setupMotor - yes",
+  "auto": true,
+  "contexts": [
+    "setupMotor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setupMotor.setupMotor-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a3210799-168c-41a6-b9ba-deb5ba277f67",
+          "required": false,
+          "dataType": "@statusMotore",
+          "name": "statoMotore",
+          "value": "#setupMotor-followup.statoMotore",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a9be45a1-8fa5-4495-982b-3510fcdfea46",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numero",
+          "value": "#setupMotor-followup.numero",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Comando inviato"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "value": "aperta",
+    "synonyms": [
+      "1"
+    ]
+  },
+  {
+    "value": "chiusa",
+    "synonyms": [
+      "0"
+    ]
+  }
+]

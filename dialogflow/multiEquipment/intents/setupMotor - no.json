@@ -1,0 +1,36 @@
+{
+  "id": "94ad47f4-f4fe-409b-9824-58f07f862139",
+  "parentId": "cfeaf7c9-5b57-48a7-9b10-f36c42f5bbf6",
+  "rootParentId": "cfeaf7c9-5b57-48a7-9b10-f36c42f5bbf6",
+  "name": "setupMotor - no",
+  "auto": true,
+  "contexts": [
+    "setupMotor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setupMotor.setupMotor-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Azione non eseguita"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "c8000d74-9a1c-4e53-b904-369a768aa866",
+  "name": "comunicationStatusValve",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
