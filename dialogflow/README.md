@@ -18,7 +18,7 @@ Ogni paramentro di un'intento ha un tipo che in Dialogflow viene chiamato entit�
 Per ottentere risposte dinamiche da un intento si utilizzano i fulfillments. Quando abilitati per un intento questo chiama un servizio che deve essere definito. Dialogflow manda una richiesta webhook ad un webhook server e aspetta una risposta per restituire all'utente una risposta. 
 
 
-### Setup
+### Progetto
 
 Nel progetto viene utilizzato un solo agente chiamato *multiEquipment*. Questo utilizza due intenti chiamati *setupMotor* e *setupValve*, i quali ripetono il comando chiesto in NLP dall'utente e aspettano una conferma come risposta. La conferma lancia un sottointento a seconda se è positiva o negativa.
 Nel caso sia negativa il comando non viene mandato e si conclude l'intento, nel caso positivo invece viene lanciata una chiamata a una funzione la quale scrive un il comando sul database Firestore di Google Firebase. Il codice è visualizzabile sotto al menu Fulfillment sulla pagina di gestione dell'agente.
@@ -30,3 +30,7 @@ Si tratta di un servizio di Firebase, tool di sviluppo Google. Questo viene util
 Per ascoltare in tempo reale da Firestore rimando a questa documentazione https://cloud.google.com/firestore/docs/query-data/listen?hl=it .
 Nel progetto viene utilizzato node-red data la sua immediatezza di utilizzo, la grande quantità di librerie pacchetti di nodi) già scritte e poiché implementato nelle IIoT box vendute da Schneider.
 
+
+#Setup 
+
+Per utilizzare l'agente entrare su Dialogflow e importare multiEquipment.zip
