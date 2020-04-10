@@ -1,0 +1,331 @@
+ <!--Register Node Type-->
+
+ <style>
+    .greenColor {
+        fill: #fff !important;
+        font-family: Nunito Regular;
+    }
+
+</style>
+
+
+ <script type='text/javascript'>
+ RED.nodes.registerType('SE_Modbus-Write', {
+        category: 'modbus',
+        color: '#3DCD58',
+        labelStyle: function() {
+                return this.name?"greenColor":"";
+            },
+        defaults: {
+            name: {value: "SEModbusWrite"},
+            version: {value: "1.2.0"},
+            unitid: {value: ""},
+            dataType: { value: "Coil", required: true },
+            adr: { value: "" },
+            quantity: { value: "" },
+            logging: { value: "1" },
+            loggingLevel: { value: "error" },
+            server: { type: "SE_Modbus-Client", required: true },
+            alltags: { value: "" }
+        },
+        
+        inputs: 1,
+        outputs: 1,
+        icon: "mdbus-write.png",
+        align: 'right',
+        paletteLabel: "SEModbusWrite",
+        label: function () {
+            return this.name || ""
+        },
+        oneditprepare: function () {
+          let previous = null
+          let node = this
+        //   let fcDataTypeSelector = $('#node-input-dataType')
+        //   let quantitySelector = $('#node-input-quantity')
+        //   let modbusWriteQuantityRow = $('#modbus-write-quantity')
+
+        //   fcDataTypeSelector.on('focus', function () {
+        //     previous = this.value
+        //   }).change(function () {
+        //     if (previous == null) {
+        //       previous = fcDataTypeSelector.val()
+        //     }
+
+        //     switch (fcDataTypeSelector.val()) {
+        //       case 'Coil':
+        //       case 'HoldingRegister':
+        //         node.quantity.required = false
+        //         quantitySelector.val(1)
+        //         modbusWriteQuantityRow.hide()
+        //         break;
+        //       default:
+        //         node.quantity.required = true
+        //         modbusWriteQuantityRow.show()
+        //     }
+        //   })
+
+            // Logging 
+            let loggingSelector = $('#node-input-logging')
+
+            let loggingDivision = $("#loggingDivision")
+            loggingSelector.change(function () {
+                if (loggingSelector.val() == '1') {
+                    loggingDivision.show();
+                }
+                else {
+                    loggingDivision.hide();                   
+                }
+            });
+
+            if ($('#node-input-alltags').val() != '') {
+                $('#add-tag-btn').attr('disabled', false);
+            }  
+        }
+    });
+
+</script>
+
+<!--Configuration Parameters : Input From Users-->
+<script type="text/x-red" data-template-name="SE_Modbus-Write">
+
+    <div class="heading"> 
+        <label> Schneider Electric </label> 
+     </div>
+    <div id="main">
+
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-dataType"><i class="icon-list"></i> Type</label>
+        <select id="node-input-dataType">
+            <option value="Coil">FC 5: Force Single Coil</option>
+            <option value="HoldingRegister">FC 6: Preset Single Register</option>
+            <option value="MCoils">FC 15: Force Multiple Coils</option>
+            <option value="MHoldingRegisters">FC 16: Preset Multiple Registers</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-adr"><i class="icon-bookmark"></i> Address</label>
+        <input type="text" id="node-input-adr" placeholder="0-65535" onkeyup="updateAddress()" onblur="enableAddTagButton()">
+    </div>
+    <div class="form-row">
+        <label for="node-input-quantity"><i class="icon-bookmark"></i> Quantity</label>
+        <input type="text" id="node-input-quantity" placeholder="1-65535" style="max-width:200px" onkeyup="addRemoveRegCount()" onblur="enableAddTagButton()">
+        <button id="add-tag-btn" class="editor-button" onclick="addTag()" disabled>Add Tag</button>
+        <input type="text" id="node-input-alltags" style="display: none;"/>
+    </div>
+    <div  class='form-row'>
+        <label for='node-input-unitid'><i class='icon-bookmark'></i> Unit ID
+        </label> <input type='text' id='node-input-unitid' style='max-width:80px'> 
+    </div>
+    <div class="form-row">
+        <label for="node-input-server"><i class="icon-bookmark"></i> Server</label>
+        <input type="text" id="node-input-server">
+    </div>
+    <div class="form-row">
+        <label for="node-input-logging"><i class="fa fa-random"></i> Logging</label>
+        <select type='text' id='node-input-logging'> 
+            <option value="1">Enable</option>
+            <option value="0">Disable</option>
+        </select>
+    </div>
+    <div class="form-row" id="loggingDivision">
+    
+        <div class="form-row">
+            <label for="node-input-loggingLevel"><i class="fa fa-random"></i> Level</label>
+            <select type='text' id='node-input-loggingLevel'> 
+                <option value="error">Alert only</option>
+                <option value="info">All events</option>
+            </select>
+        </div>
+
+    </div>
+</div>
+    <div id="tags" style="display: none;">
+            <div class="sticky">
+                <button class="editor-button" onclick="goBack()">Back</button>
+                <button class="se-primary-btn pull-right saveTagsBtn" onclick="addUpdateTags()">Save Tags</button>
+                <hr>
+            </div>
+            <div id="tagDivDisplay"></div>
+    
+        </div>
+</script>
+
+
+<script type="text/x-red" data-help-name="SE_Modbus-Write">
+
+    <div class="heading"> 
+            <label> Schneider Electric </label> 
+         </div>
+    <br>
+    
+    <h1>Introduction</h1>
+    
+        <p>Connects to a Modbus TCP and Serial Devices to write register values when the input is arrived.</p>
+    
+        <h1> Description</br> </h1>
+    
+            <h2>Necessary Configurations Required</h2>
+                <ul>
+                    <li> FC: Modbus Write Register Function code. Supported function codes are mentioned down.</li>
+                    <li> Address:Register address that has to be written.It should have values between 0 & 65535. </li>
+                    <li> Quantity: Number of registers to be written starting from the Address configured in above step. It should have values between 0 & 65535.</li>
+                    <li> Unid ID:Slave address of the Modbus Serial and TCP(Optional) Devices. </li>
+                    <li> Logging : Configuration parameter for Enable or Disable the logging. Logging is by default Enabled.</li>
+					<li> Level : Configuration parameter for selecting the logging level. There are three logging levels Info, Debug and Error. Its  default value is Error.</li>
+                    <li>The Modbus device(Tcp and Serial Slave) from  where the data has to be written. It is having combo-box for selection of the earlier defined slaves.
+                        For adding a new slave, edit button should be given next to the selector field. Clicking on the 
+                        edit button, the Slave configuration window shall appear and should contain the following fields:
+                        <ul>
+                            <li>Type:(TCP/Serial). If selected type is TCP following configurations are required.</li>
+                                <li>Host: Text filed to configure the slave IP address.</li>
+                                <li>Port (default 502): Text field to configure the port number. </li>
+                                <li>TCP Type: There are four options availabele. Default, Telnet, C701 and RTU-BUFFERED.Only Default option 
+                                    is verified for this node.</li>
+                            <li>Type:(TCP/Serial). If selected type is Serial following configurations are required.</li>
+                                <li>Serial Port: Text field to configure the Serial port name. (/dev/tty.usbserial | COM[1..n])</li>
+                                <li>Baud rate: A drop down option for selecting the baud rate.(115200, 19200, 9600 ...) Only '19200' option 
+                                    is verified for this node.</li>
+                                <li>Databits: A drop down option for selecting the data bit (5, 6, 7 and 8). Only '8' option 
+                                    is verified for this node.</li>
+                                <li>Stopbits: A drop down option for selecting the stop bit (1, 1.5 and 2). Only '1' option 
+                                    is verified for this node.</li>
+                                <li>Parity: A drop down option for selecting the parity bit (None, Even ,Odd, Mark and Space). Only 'Even' option 
+                                    is verified for this node.</li>
+                                <li>Serial Type: A drop down option for selecting the serial type(RTU, RTUBuffered, ASCII). Only 'RTUBuffered' option 
+                                    is verified for this node.</li>
+                                <li>Connection delay: Time to delay first command sending after reconnect(default 500 ms) </li>
+
+                                <li>Timeout (default 10 s) - It is second(s) delay for the command timeout on ModbusRTU command.</li>
+                                <li>Reconnect timeout (default 2000 ms) - It is the reconnect time out.</li>
+                                <li>Queue commands (Enable/Disable) - If selected Enable it buffers incoming Modbus commands and send them with delay.</li>
+                                <li>Queue Delay (default 100 ms) - It is millisecond(ms) interval to delay sending commands from queue (sumOfWaiting=requestsPerCycle*delay).</li>
+                        </ul>
+                    </li>
+                </ul>
+    
+    
+            <h2>Function code currently supported</h2>
+                <ul>
+                    <li>FC 5: Write Single Coil</li>
+                    <li>FC 6: Write Single Holding Register</li>
+                    <li>FC 15: Write Multiple Coils</li>
+                    <li>FC 16: Write Multiple Holding Registers</li>
+                </ul>
+    
+    
+        
+    
+    
+        <h1>Input </br></h1>
+        <b>Default Input</b>
+        <ul>
+            <li>A number or byte in case of single write register.</li>
+            <li>A number array or byte array in case of multiple write registers.</li>
+        </ul>
+        
+        <b>Custom Input</b>
+        <ul>
+            <li>An object with containing 'value' key of number or byte in case of single write register.<br>
+                Example:
+<pre>
+<code>
+{  
+    "value": 98,
+    "unitid":1,
+    "fc":16,
+    "address":3,
+    "quantity":2
+}
+</code>
+</pre>
+            </li>
+            <li>An object with containing 'value' key of number array or byte array in case of multiple write registers.<br>
+                Example:
+<pre>
+<code>
+{  
+    "value":[ 4, 78 ],
+    "unitid":1,
+    "fc":16,
+    "address":3,
+    "quantity":2
+}
+</code>
+</pre>
+                    </li>
+        </ul>
+
+        
+         <h1>Output </br></h1>
+         
+            <ul>
+                <li>Data which is written on Modbus register.</li>
+                <li>Modbus error response  in case of failure.</li>
+            </ul>
+         
+         
+         <h1> Limitation </br> </h1>
+            <h2>Maximum number of write registers supported.</h2>
+    
+            <ul>
+                <li> Force Single Coil: 1 </li>
+                <li> Preset Single Register: 1 </li>
+                <li> Force Multiple Coils: 1968 </li>
+                <li> Preset Multiple Registers: 123 </li>
+                Node red editor Deug window shows maximum 1000 register value only.
+                <li>Writing of floating type value is not supported.</li>
+            </ul>
+    
+        <h1> Usage </br> </h1>
+            <ul>
+                <li> Choose a function code (FC) from the dropdown menu.</li>
+                <li> Select the coil/input/register start address (0:65535), and the quantity of 
+                    coils/inputs/registers to be written from the start address.</li>
+                <li> Selet the slave type (Serial/TCP).</li>
+                <li> If slave selected  is serial configure slave ID, Baud Rate, Parity , 
+                    Stop bits and Modbus Type (RTU or ASCII) and for TCP configure the IP address.</li>    
+            </ul>
+
+            <h1>
+                 Additional Information
+            </h1>
+            <ul>
+                <li>In server configuration TCP type C701, Telnet and RTU-BUFFERED is not verified.</li>
+                <li>This node will not support topological type of address configuration</li>
+                <li>In case of Serial type server configuration adding two different servers with same COM port is not advisable, as it will initiate two different instances for same COM port which may cause Modbus node not to function properly.</li>
+                <li>If Modbus node used for serial devices more than 1 time in the node red flow, It is recommended to use Queue delay of 100ms or more, as serial slave device may not respond for multiple request at a time.</li>
+                <li>You can see the error message after timeout and reconnect time given in configuration</li>
+                <li>Log file is saved inside the log folder.Log folder is created if logging is enabled inside node folder of existing installed  
+                    se-node-red-modbus. Log file is saved with name Modbus.log and Modbus1.log(Backup).</li>
+                <li>The log file size is fixed to 25mb. Once the 25mb limit is crossed a new log file is created and the previous file is preserved as backup. If this new file again reaches 25mb the existing backup file is first deleted and then the current file is preserved as backup and a new file is created.
+                    This procedure is always repeated and the total space consumed would never cross 50MB.
+                    </br> 
+                    Eg: Modbus.log-created.
+                    </br>
+                    file1- reaches 25mb- file2 - created -File1 is backup file.
+                    </br>
+                    file2 reaches 25mb - File1 is deleted - File2 is made backup file and file3 is created.</li>
+                <li>If selected Level in logging is error only error messages are logged.If selected level in logging is info both error and info messages are logged.If selected level in logging is debug all log messages error , info and debug are logged.</li>   
+                <li>File size is 25mb for each se-node-red-modbus in the flow. Logs can be differentiated by node ID in the Log file.</li>
+                <li>Log file which captures the events from the node should not be deleted else the node events can’t be traced</li>
+                <li>Log Folder should have WRITE permission or Log events can’t be captured</li>
+                <li> User should not delete the log file if node red server is running.It will stop the data logging. If by mistake user delete the current log file, user need to restart the server to start file logging again.</li> 
+            </ul> 
+       
+    
+        <h1> Reference </h1>
+            <ul>
+                <li> 
+                    <a href="http://www.modbus.org/">Click here</a>
+                </li>
+            </ul>
+
+            <div style="background:#32963f !important;"> 
+                <label style="color:white !important; font-weight:bold !important; margin-left:15%;margin-top:1%"> <a href="https://www.schneider-electric.co.in/en/"style="color: white">Copyright@Schneider-Electric</a></label> 
+            </div>
+
+</script>

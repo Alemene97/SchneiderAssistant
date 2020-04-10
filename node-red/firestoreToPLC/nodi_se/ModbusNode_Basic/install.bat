@@ -1,0 +1,3 @@
+@echo off
+echo Installing...
+call node install.js

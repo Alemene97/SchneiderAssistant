@@ -1,0 +1,67 @@
+{
+  "name": "se-node-red-modbus",
+  "version": "1.2.0",
+  "description": "Modbus Node-Red Custom Nodes for Read and Write using serial and tcp",
+  "main": "none",
+  "scripts": {
+    "test": "nyc --reporter=html mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tfshybridpa.dev.wonderware.com:8080/tfs/IOCI/Projects/_git/Node_Red_Factory"
+  },
+  "publishConfig": {
+    "registry": "http://wain05400.apa.gad.schneider-electric.com:4873/"
+  },
+  "keywords": [
+    "node-red",
+    "schneider",
+    "modbus",
+    "modbus-serial",
+    "serial",
+    "modbus-tcp",
+    "tcp",
+    "client",
+    "slave",
+    "master",
+    "rtu",
+    "ascii",
+    "ASCII",
+    "C701",
+    "telnet",
+    "rtu buffered"
+  ],
+  "node-red": {
+    "nodes": {
+      "SE_Modbus-Read": "nodes/SE_Modbus-Read.js",
+      "SE_Modbus-Write": "nodes/SE_Modbus-Write.js",
+      "SE_Modbus-Client": "nodes/SE_Modbus-Client.js"
+    }
+  },
+  "author": {
+    "name": "Babavali Sheik"
+  },
+  "contributors": [
+    {
+      "name": "Babavali Sheik",
+      "email": "Babavali.Sheik@schneider-electric.com"
+    }
+  ],
+  "license": "Schneider Electric",
+  "bugs": {
+    "url": "https://teams.microsoft.com/l/channel/19:2ccc203e28fa4e4da11227e786fa10ae@thread.skype/Modbus%20Node"
+  },
+  "homepage": "https://teams.microsoft.com/l/channel/19:2ccc203e28fa4e4da11227e786fa10ae@thread.skype/Modbus%20Node",
+  "dependencies": {
+    "debug": "*",
+    "fs-extra": "^4.0.2",
+    "modbus-serial": "^7.0.1",
+    "path": "*",
+    "stampit": "2.1.2",
+    "stately.js": "1.3.0",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+
+  }
+}

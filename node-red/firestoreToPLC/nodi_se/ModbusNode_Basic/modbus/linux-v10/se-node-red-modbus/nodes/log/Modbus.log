@@ -1,0 +1,222 @@
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::2586fc2f.8d00c4::Device is not connected","timestamp":"2019-05-09T11:24:23.058Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::2586fc2f.8d00c4::Device is not connected","timestamp":"2019-05-09T11:24:28.124Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::e9f5a37b.9feba::Logging Disabled","timestamp":"2019-05-09T11:24:28.124Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::2586fc2f.8d00c4::Logging Enabled","timestamp":"2019-05-09T11:24:28.124Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.721Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.722Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.730Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.738Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:28:26.739Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.749Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.755Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.756Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:28:26.761Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:28:26.762Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:28:26.862Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.894Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.894Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.902Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.910Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.911Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.911Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:32:35.911Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.911Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:32:35.912Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.920Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.928Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.929Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:32:35.933Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:32:35.934Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:32:36.027Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:32:36.035Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:32:38.040Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.047Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.048Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.056Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.063Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:33:31.065Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.074Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.074Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:33:31.085Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:33:31.086Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:33:31.185Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:33:31.192Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:33:31.192Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:33:31.193Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.707Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.707Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.716Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.726Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:36:54.727Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.737Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.737Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.746Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:36:54.751Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:36:54.752Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:36:54.842Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:36:54.850Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:36:54.850Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:36:54.851Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.061Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.062Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.070Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.078Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.079Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:39:53.079Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.079Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.079Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.079Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:39:53.080Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.092Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.100Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.101Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:39:53.106Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:39:53.108Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:39:53.195Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:39:53.203Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:39:53.203Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:39:53.204Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.329Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.329Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.338Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.346Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:41:34.348Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.356Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.357Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.365Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:41:34.371Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:41:34.372Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:41:34.462Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:41:34.469Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:41:34.470Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:41:34.470Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.326Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.327Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.335Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.343Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:43:36.344Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.353Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.354Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:43:36.367Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.362Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:43:36.368Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:43:36.462Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:43:36.469Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:43:36.469Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:43:36.470Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.124Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.125Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.133Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.133Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:45:43.144Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.152Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.161Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.162Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:45:43.167Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:45:43.168Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:45:43.267Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:45:43.271Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:45:43.271Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:45:43.273Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:45:45.277Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:45:45.277Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:45:45.287Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.767Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.768Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.776Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.777Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.786Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::COM Port is already opened","timestamp":"2019-05-09T11:46:39.786Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::FSM Not Ready To Read","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Error undefined","timestamp":"2019-05-09T11:46:39.787Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.795Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.795Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.805Z"}
+{"level":"error","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Device is not connected","timestamp":"2019-05-09T11:46:39.810Z"}
+{"level":"info","message":"NODE Name::SEModbusRead:NODE ID::7b84e77.80a2d18::Logging Enabled","timestamp":"2019-05-09T11:46:39.811Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:46:39.913Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:46:39.918Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:46:39.918Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Enabled","timestamp":"2019-05-09T11:46:39.919Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:46:39.926Z"}
+{"level":"error","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Device is not connected","timestamp":"2019-05-09T11:46:39.926Z"}
+{"level":"info","message":"NODE Name::SEModbusWrite:NODE ID::c48a7787.197bd8::Logging Disabled","timestamp":"2019-05-09T11:46:39.927Z"}

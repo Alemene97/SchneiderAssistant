@@ -1,0 +1,10 @@
+Pre-requisites 
+	NodeJS
+	Node-RED
+
+Windows 
+	Click on install.bat file install nodes
+Linux 
+	Open the terminal where the files are copied
+	run below command 
+	node install.js
