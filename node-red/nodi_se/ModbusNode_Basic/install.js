@@ -4,7 +4,7 @@ const fs = require('fs-extra')
 var ndVer = process.version.split(".")[0];
 var osTyp = (os.type() == 'Windows_NT') ? "windows" : "linux";
 var homedir = require('os').homedir();
-var noderedFolder = "C:\\AOA\\node-red\\node_modules"
+var noderedFolder = "C:\\Users\\aleme\\node-red\\node_modules"
 console.log(" NDVERR ", ndVer);
 console.log(" homedir ", noderedFolder);
 
