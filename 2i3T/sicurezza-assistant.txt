@@ -1,0 +1,6 @@
+L’assistente è in ascolto di brevi snippet di audio (qualche secondo) per rilevare il comando vocale di attivazione come “Ok Google”. Questi non vengono inviati né salvati su Google se non viene rilevata la parola di attivazione; nel caso venga rilevata la richiesta di attivazione l’assistente esce dalla modalità standby e inizia l’ascolto per soddisfare il comando. L’assistente ha accesso alle informazioni che si è scelto di condividere nell’account Google associato al dispositivo. Per impostazione predefinita , le registrazioni audio non vengono salvate. Tutto il controllo delle attività è gestibile dal link https://myaccount.google.com/yourdata/assistant dove è possibile cancellare e disattivare anche lo storico delle richieste fatte all’assistente se queste non voglio essere salvate.
+Google salva e condivide i dati raccolti dall’assistente solo previa autorizzazione dell’utente. Per tale motivo con il corretto setup di cancellazione delle attività e l’assenza di associazioni a servizi di terze parti i dati sono al sicuro
+
+FONTI: 
+https://support.google.com/googlenest/answer/7072285?hl=it 
+https://support.google.com/accounts/answer/465#auto-delete
