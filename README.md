@@ -1,6 +1,6 @@
 # SchneiderAssistant
 
-##Sviluppo comandi vocali Assistente Google per controllare un'impianto di automazione aziendale
+## Sviluppo comandi vocali Assistente Google per controllare un'impianto di automazione aziendale
 
 Il progetto consiste nello sviluppo di un sistema che estenda il sistema di controllo di un impianto di automazione per consentire la gestione di specifiche situazioni tramite comandi vocali. 
 Grazie ai servizi Google Cloud è possibile gestire le richieste fatte all' Assistente Google per generare una richiesta da gestire in loco al fine di comandare un impianto. I servizi in questione sono:
@@ -13,11 +13,11 @@ L'interrogazione esterna serve a recuperare i dati ricavati dall'espressione in 
 
 Il sistema in questione ha come punto centrale Node-RED, il quale comunica con l'impianto grazie a dei nodi di comunicazione appositi, restando in ascolto di variazioni sul database Firestore dove Dialogflow scrive i comandi interpretati dal linguaggio naturale ricevuto in ingresso. 
 
-###Prototipo
+### Prototipo
 
 Il progetto è stato sviluppato gradualmente attorno a un prototipo scaricabile da questa repository. Inizialmente dal controllo di un singolo dispositivo tramite un comando ON/OFF si è arrivati a una gestione di un sistema multidispositivo binario dove le variabili di comando riguardano [DEVICE], [NUMERO_DEVICE], [STATUS]. Il progetto in questione prevede infatti 16 dispositivi, 8 motori e 8 valvole, con 2 stati, acceso/spento per i motori e aperto/chiuso per le valvole, numerati da 1 a 8 ([VALVE1-VALVE8] e [MOTOR1-MOTOR8]).
 
-##Actions Console
+## Actions Console
 
 ## DialogFlow
 
@@ -39,7 +39,7 @@ Ogni paramentro di un'intento ha un tipo che in Dialogflow viene chiamato entit�
 Per ottentere risposte dinamiche da un intento si utilizzano i fulfillments. Quando abilitati per un intento questo chiama un servizio che deve essere definito. Dialogflow manda una richiesta webhook ad un webhook server e aspetta una risposta per restituire all'utente una risposta.
 
 
-###Utilizzo nel prototipo
+### Utilizzo nel prototipo
 
 Nel progetto viene utilizzato un solo agente chiamato *multiEquipment*. Questo utilizza due intenti chiamati *setupMotor* e *setupValve*, i quali ripetono il comando chiesto in NLP dall'utente e aspettano una conferma come risposta. La conferma lancia un sottointento a seconda se è positiva o negativa.
 Nel caso sia negativa il comando non viene mandato e si conclude l'intento, nel caso positivo invece viene lanciata una chiamata a una funzione la quale scrive un il comando sul database Firestore di Google Firebase. Il codice è visualizzabile sotto al menu Fulfillment sulla pagina di gestione dell'agente.
