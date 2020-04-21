@@ -26,16 +26,16 @@ Si tratta, come già accennato, di un interprete linguaggio naturale utilizzato 
 ### Concetti Base
 
 #### Agenti
-- Agenti: Un agente è un modulo che contiente tutte le impostazioni e i dati di un progetto, più agenti sono affiancabili per la creazione di progetti complessi
+Un agente è un modulo che contiente tutte le impostazioni e i dati di un progetto, più agenti sono affiancabili per la creazione di progetti complessi
 
 #### Intenti
-- Intenti: Gli intenti categorizzano le intenzioni dell'utente espresse in linguaggio naturale (NLP, Natural Language Processing). Dialogflow abbina l'espressione in NLP dell'utente con l'intento corretto. Vengono impostate delle frasi standard dette di Training dalle quali il machine learning di Dialogflow espande una lista di possibili frasi che scatenano l'intento.
+Gli intenti categorizzano le intenzioni dell'utente espresse in linguaggio naturale (NLP, Natural Language Processing). Dialogflow abbina l'espressione in NLP dell'utente con l'intento corretto. Vengono impostate delle frasi standard dette di Training dalle quali il machine learning di Dialogflow espande una lista di possibili frasi che scatenano l'intento.
 
 #### Entità
-- Entità: Ogni paramentro di un'intento ha un tipo che in Dialogflow viene chiamato entità. Sono presenti delle entità di defaul (es. Date,Tempo,Colori,Indirizzi,..) ma è possibile creare delle entità personalizzate per ottente dei dati specifici.
+Ogni paramentro di un'intento ha un tipo che in Dialogflow viene chiamato entità. Sono presenti delle entità di defaul (es. Date,Tempo,Colori,Indirizzi,..) ma è possibile creare delle entità personalizzate per ottente dei dati specifici.
 
 #### Fulfillment
-- Fulfillment: Per ottentere risposte dinamiche da un intento si utilizzano i fulfillments. Quando abilitati per un intento questo chiama un servizio che deve essere definito. Dialogflow manda una richiesta webhook ad un webhook server e aspetta una risposta per restituire all'utente una risposta.
+Per ottentere risposte dinamiche da un intento si utilizzano i fulfillments. Quando abilitati per un intento questo chiama un servizio che deve essere definito. Dialogflow manda una richiesta webhook ad un webhook server e aspetta una risposta per restituire all'utente una risposta.
 
 
 ### Utilizzo nel prototipo
